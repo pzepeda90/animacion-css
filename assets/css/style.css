@@ -269,14 +269,12 @@ a:hover i {
               "header filter filter filter"
               "header main main main"
               "header main main main"
-              "header main main main"
               "footer pagination pagination pagination";
           }
     
           .header { 
             grid-area: header;
             width: 18rem;
-            height: 51rem;
             display: flex;
             flex-direction: column;
             justify-content: start;

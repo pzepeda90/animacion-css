@@ -258,6 +258,25 @@ a:hover i {
     background-color: blueviolet;
 }
 
+.mb-1 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.mb-2 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.mb-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.contenedor-evaluacion {
+    padding-left: ;
+}
+
 @media (width > 768px) {
         
     .plot {  
@@ -275,6 +294,7 @@ a:hover i {
           .header { 
             grid-area: header;
             width: 18rem;
+            height: 47rem;
             display: flex;
             flex-direction: column;
             justify-content: start;
@@ -307,7 +327,7 @@ a:hover i {
             grid-area: filter;
             background-color: #3a506b;
             width: 90rem;
-            height: 6rem;
+            height: 4rem;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -328,7 +348,7 @@ a:hover i {
             grid-area: main;
             overflow: scroll;
             width: 90rem;
-            height: 41rem;
+            height: 39rem;
             justify-content: center;
             align-items: center;
             background-color:aliceblue;

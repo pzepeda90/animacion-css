@@ -596,6 +596,10 @@ a:hover i {
 
 .card-img-top:hover {
     filter: saturate(200%);
+    -webkit-transform: rotate(15deg) scale(0.5);
+	transform: rotate(15deg) scale(0.8);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .f-contacto {
